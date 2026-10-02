@@ -10,4 +10,4 @@ mkdocs:
 
 python:
   install:
-    - mkdocs-material>=9.5.0
+    - requirements: requirements.txt
