@@ -1,0 +1,28 @@
+site_name: "1C:Enterprise AI Architecture Blueprint"
+site_description: "Архитектурный референс внедрения локальных нейросетей и ИИ-агентов в 1С:Предприятие 8.3"
+site_author: "Vlad-Voro & ai-avtopilot.ru"
+site_url: "https://1c-ai-guide.readthedocs.io/"
+
+theme:
+  name: material
+  language: ru
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: cyan
+  features:
+    - navigation.sections
+    - content.code.copy
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://ai-avtopilot.ru/
+      name: Официальный сайт АвтоПилот
+    - icon: fontawesome/brands/github
+      link: https://github.com/Vlad-Voro/1c-ai-guide
+
+nav:
+  - Главная: index.md
+  - Архитектура интеграции: architecture.md
+  - Внедрение под ключ: https://ai-avtopilot.ru/services/document-automation/
